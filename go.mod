@@ -3,7 +3,7 @@ module github.com/FarhanRizkiM/presensi
 go 1.20
 
 require (
-	github.com/FarhanRizkiM/kibackend v0.0.2
+	github.com/FarhanRizkiM/kibackend v0.0.3
 	github.com/aiteung/atdb v0.0.11
 	github.com/aiteung/musik v0.0.5
 	github.com/gofiber/fiber/v2 v2.47.0
