@@ -10,7 +10,7 @@ import (
 var origins = []string{
 	"https://FarhanRizkiM.github.io",
 	"https://farhanrizkim.github.io",
-	"https://presensi-6907de6c35f8.herokuapp.com/",
+	"https://presensi-6907de6c35f8.herokuapp.com/Mahasiswa",
 	"https://gocroot.github.io/",
 	"http://127.0.0.1:5500",
 	"http://127.0.0.1:5501",
@@ -28,8 +28,7 @@ var Internalhost string = os.Getenv("INTERNALHOST") + ":" + os.Getenv("PORT")
 
 var Cors = cors.Config{
 	AllowOrigins:     strings.Join(origins[:], ","),
-	AllowMethods:     "GET,HEAD,OPTIONS,POST,PUT",
-	AllowHeaders:     "Origin, X-Requested-With, Content-Type, Accept, Authorization, Access-Control-Request-Headers, token, Access-Control-Allow-Origin",
+	AllowHeaders:     "Origin",
 	ExposeHeaders:    "Content-Length",
 	AllowCredentials: true,
 }
