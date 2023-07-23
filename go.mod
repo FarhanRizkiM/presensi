@@ -9,7 +9,7 @@ require (
 	github.com/gofiber/fiber/v2 v2.47.0
 	github.com/gofiber/websocket/v2 v2.2.1
 	github.com/whatsauth/whatsauth v0.2.5
-	go.mau.fi/whatsmeow v0.0.0-20230628230045-73f143bc9874
+
 )
 
 require (
