@@ -10,7 +10,7 @@ import (
 var origins = []string{
 	"https://FarhanRizkiM.github.io",
 	"https://farhanrizkim.github.io",
-	"https://presensi-6907de6c35f8.herokuapp.com/Mahasiswa",
+	"https://presensi-6907de6c35f8.herokuapp.com/",
 	"https://gocroot.github.io/",
 	"http://127.0.0.1:5500",
 	"http://127.0.0.1:5501",
